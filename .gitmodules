@@ -1,0 +1,3 @@
+[submodule "RT-DETR"]
+	path = RT-DETR
+	url = https://github.com/guojin-yan/RT-DETR-OpenVINO.git
