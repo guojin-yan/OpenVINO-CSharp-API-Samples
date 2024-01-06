@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-using System.Runtime.InteropServices;
-using System;
+﻿using System.Runtime.InteropServices;
 using OpenCvSharp;
 using OpenCvSharp.Dnn;
 using OpenVinoSharp;
