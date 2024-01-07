@@ -26,16 +26,16 @@ namespace rt_detr_opencvsharp
                 {
                     Directory.CreateDirectory("./model");
                 }
-                //if (!File.Exists("./model/rtdetr_r50vd_6x_coco.xml") 
-                //    && !File.Exists("./model/rtdetr_r50vd_6x_coco.bin"))
-                //{
-                //    if (!File.Exists("./model/rtdetr_r50vd_6x_coco.tar"))
-                //    {
-                //        _ = Download.download_file_async("https://bj.bcebos.com/v1/paddle-slim-models/act/rtdetr_r50vd_6x_coco_quant.tar",
-                //            "./model/rtdetr_r50vd_6x_coco.tar").Result;
-                //    }
-                //    Download.unzip("./model/rtdetr_r50vd_6x_coco.tar", "./model/");
-                //}
+                if (!File.Exists("./model/rtdetr_r50vd_6x_coco.xml")
+                    && !File.Exists("./model/rtdetr_r50vd_6x_coco.bin"))
+                {
+                    if (!File.Exists("./model/rtdetr_r50vd_6x_coco.tar"))
+                    {
+                        _ = Download.download_file_async("https://github.com/guojin-yan/OpenVINO-CSharp-API-Samples/releases/download/Model/rtdetr_r50vd_6x_coco.tar",
+                            "./model/rtdetr_r50vd_6x_coco.tar").Result;
+                    }
+                    Download.unzip("./model/rtdetr_r50vd_6x_coco.tar", "./model/");
+                }
 
                 if (!File.Exists("./model/test_image.jpg"))
                 {
@@ -300,9 +300,9 @@ namespace rt_detr_opencvsharp
         {
             RtdetrConfig config = new RtdetrConfig();
             config.set_model(model_path);
-            RtdetrDet yolov8 = new RtdetrDet(config);
+            RtdetrDet det = new RtdetrDet(config);
             Mat image = Cv2.ImRead(image_path);
-            DetResult result = yolov8.predict(image);
+            DetResult result = det.predict(image);
             Mat result_im = Visualize.draw_det_result(result, image);
             Cv2.ImShow("Result", result_im);
             Cv2.WaitKey(0);
