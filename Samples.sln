@@ -11,17 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yolov8_det_opencvsharp", "m
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rt-detr", "rt-detr", "{B073CC1F-9382-4D88-8EC3-67C3A81389E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rt-detr_opencvsharp", "model_samples\rt-detr\rt-detr_opencvsharp\rt-detr_opencvsharp.csproj", "{BF058421-1E73-479B-8D2F-F8CABF855FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rt-detr_opencvsharp", "model_samples\rt-detr\rt-detr_opencvsharp\rt-detr_opencvsharp.csproj", "{BF058421-1E73-479B-8D2F-F8CABF855FFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rt-detr_emgucv", "model_samples\rt-detr\rt-detr_emgucv\rt-detr_emgucv.csproj", "{CEDF0959-866C-4465-B163-3894E1570163}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rt-detr_emgucv", "model_samples\rt-detr\rt-detr_emgucv\rt-detr_emgucv.csproj", "{CEDF0959-866C-4465-B163-3894E1570163}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yolov8_det_emgucv", "model_samples\yolov8\yolov8_det_emgucv\yolov8_det_emgucv.csproj", "{995B46ED-D51E-42A8-98BE-4D9B9EC5FA2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ppyoloe", "ppyoloe", "{3D5ED70D-1EB5-4CA9-B221-2F5AB36E4702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppyoloe_opencvsharp", "model_samples\ppyoloe\ppyoloe_opencvsharp\ppyoloe_opencvsharp.csproj", "{5905CF35-FBBF-4B3A-8A8A-7A538EC5F2D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppyoloe_opencvsharp", "model_samples\ppyoloe\ppyoloe_opencvsharp\ppyoloe_opencvsharp.csproj", "{5905CF35-FBBF-4B3A-8A8A-7A538EC5F2D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppyoloe_emgucv", "model_samples\ppyoloe\ppyoloe_emgucv\ppyoloe_emgucv.csproj", "{B740E387-CC06-41D2-85AB-0626DB56E8C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppyoloe_emgucv", "model_samples\ppyoloe\ppyoloe_emgucv\ppyoloe_emgucv.csproj", "{B740E387-CC06-41D2-85AB-0626DB56E8C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "yolov5", "yolov5", "{0A4AD4B2-D79B-4BDD-8FEF-EC359E2E0CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yolov5_det_opencvsharp", "model_samples\yolov5\yolov5_det_opencvsharp\yolov5_det_opencvsharp.csproj", "{285F6566-311C-445A-A395-9B0383F0F30E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{B740E387-CC06-41D2-85AB-0626DB56E8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B740E387-CC06-41D2-85AB-0626DB56E8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B740E387-CC06-41D2-85AB-0626DB56E8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285F6566-311C-445A-A395-9B0383F0F30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285F6566-311C-445A-A395-9B0383F0F30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285F6566-311C-445A-A395-9B0383F0F30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285F6566-311C-445A-A395-9B0383F0F30E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,8 @@ Global
 		{3D5ED70D-1EB5-4CA9-B221-2F5AB36E4702} = {FD5EEDDB-D72B-4F00-8861-4A467AAF6D93}
 		{5905CF35-FBBF-4B3A-8A8A-7A538EC5F2D7} = {3D5ED70D-1EB5-4CA9-B221-2F5AB36E4702}
 		{B740E387-CC06-41D2-85AB-0626DB56E8C1} = {3D5ED70D-1EB5-4CA9-B221-2F5AB36E4702}
+		{0A4AD4B2-D79B-4BDD-8FEF-EC359E2E0CFA} = {FD5EEDDB-D72B-4F00-8861-4A467AAF6D93}
+		{285F6566-311C-445A-A395-9B0383F0F30E} = {0A4AD4B2-D79B-4BDD-8FEF-EC359E2E0CFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA913FE5-7712-4872-B047-4201AC13945F}
