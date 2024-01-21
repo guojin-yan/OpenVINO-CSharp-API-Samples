@@ -7,13 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Emgu.CV" Version="4.8.1.5350" />
-    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />
-    <PackageReference Include="OpenVINO.CSharp.API" Version="2023.2.0.4" />
-    <PackageReference Include="OpenVINO.CSharp.API.Extensions" Version="1.0.1" />
-    <PackageReference Include="OpenVINO.CSharp.API.Extensions.EmguCV" Version="1.0.4" />
-    <PackageReference Include="OpenVINO.runtime.win" Version="2023.2.0.1" />
-  </ItemGroup>
-
 </Project>
