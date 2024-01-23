@@ -67,7 +67,7 @@ namespace yolov8_det
             Slog.INFO("Start yolov8 model inference.");
 
             yolov8_det(model_path, image_path, device);
-            yolov8_det_with_process(model_path, image_path, device);
+            //yolov8_det_with_process(model_path, image_path, device);
             //yolov8_det_using_extensions(model_path, image_path, device);
         }
 
