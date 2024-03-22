@@ -59,6 +59,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yolov9_det_opencvsharp", "m
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yolov9_seg_opencvsharp", "model_samples\yolov9\yolov9_seg_opencvsharp\yolov9_seg_opencvsharp.csproj", "{B6543E12-929A-445D-842C-83D675C89DB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yolov9_det_emgucv", "model_samples\yolov9\yolov9_det_emgucv\yolov9_det_emgucv.csproj", "{C9D32BA6-8990-42C0-A8FE-7188959D86C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yolov9_seg_emgucv", "model_samples\yolov9\yolov9_seg_emgucv\yolov9_seg_emgucv.csproj", "{9CA90714-F34D-4523-9F84-7DDF5701C469}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{B6543E12-929A-445D-842C-83D675C89DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6543E12-929A-445D-842C-83D675C89DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6543E12-929A-445D-842C-83D675C89DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D32BA6-8990-42C0-A8FE-7188959D86C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D32BA6-8990-42C0-A8FE-7188959D86C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D32BA6-8990-42C0-A8FE-7188959D86C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D32BA6-8990-42C0-A8FE-7188959D86C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA90714-F34D-4523-9F84-7DDF5701C469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA90714-F34D-4523-9F84-7DDF5701C469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA90714-F34D-4523-9F84-7DDF5701C469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA90714-F34D-4523-9F84-7DDF5701C469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +185,8 @@ Global
 		{40A63CBB-5CAD-4365-AF31-F67F482BBD52} = {FD5EEDDB-D72B-4F00-8861-4A467AAF6D93}
 		{16751F76-BB71-4301-B71B-AF2DDA143ED6} = {40A63CBB-5CAD-4365-AF31-F67F482BBD52}
 		{B6543E12-929A-445D-842C-83D675C89DB1} = {40A63CBB-5CAD-4365-AF31-F67F482BBD52}
+		{C9D32BA6-8990-42C0-A8FE-7188959D86C8} = {40A63CBB-5CAD-4365-AF31-F67F482BBD52}
+		{9CA90714-F34D-4523-9F84-7DDF5701C469} = {40A63CBB-5CAD-4365-AF31-F67F482BBD52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA913FE5-7712-4872-B047-4201AC13945F}
