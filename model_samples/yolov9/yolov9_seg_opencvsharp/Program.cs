@@ -35,7 +35,7 @@ namespace yolov9_seg_opencvsharp
 
                 if (!File.Exists("./model/test_det_01.jpg"))
                 {
-                    _ = Download.download_file_async("https://github.com/guojin-yan/OpenVINO-CSharp-API-Samples/releases/download/Image/test_det_01.jpg",
+                    _ = Download.download_file_async("https://github.com/guojin-yan/OpenVINO-CSharp-API-Samples/releases/download/Image/test_det_03.jpg",
                         "./model/test_det_01.jpg").Result;
                 }
                 model_path = "./model/yolov9-c-seg.xml";
