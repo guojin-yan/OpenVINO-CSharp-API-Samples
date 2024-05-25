@@ -69,6 +69,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "yolo-world", "yolo-world", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yolo-world-opencvsharp-net4.8", "model_samples\yolo-world\yolo-world-opencvsharp-net4.8\yolo-world-opencvsharp-net4.8.csproj", "{C518AB49-502E-4054-92AB-7C84270CCD2B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "yolov10", "yolov10", "{04E6B890-5490-427D-8AA1-0E2FDD6BCAD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yolov10_det_opencvsharp", "model_samples\yolov10\yolov10_det_opencvsharp\yolov10_det_opencvsharp.csproj", "{327F12D7-D218-4647-B56F-53BC2CD3839F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yolov10_det_emgucv", "model_samples\yolov10\yolov10_det_emgucv\yolov10_det_emgucv.csproj", "{D84EE8C6-A256-4024-9A74-60FA9B6EBB77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +169,14 @@ Global
 		{C518AB49-502E-4054-92AB-7C84270CCD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C518AB49-502E-4054-92AB-7C84270CCD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C518AB49-502E-4054-92AB-7C84270CCD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327F12D7-D218-4647-B56F-53BC2CD3839F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327F12D7-D218-4647-B56F-53BC2CD3839F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327F12D7-D218-4647-B56F-53BC2CD3839F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327F12D7-D218-4647-B56F-53BC2CD3839F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84EE8C6-A256-4024-9A74-60FA9B6EBB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84EE8C6-A256-4024-9A74-60FA9B6EBB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84EE8C6-A256-4024-9A74-60FA9B6EBB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84EE8C6-A256-4024-9A74-60FA9B6EBB77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +213,9 @@ Global
 		{9CA90714-F34D-4523-9F84-7DDF5701C469} = {40A63CBB-5CAD-4365-AF31-F67F482BBD52}
 		{E20E1770-E641-497C-AF3E-B49919566C8C} = {FD5EEDDB-D72B-4F00-8861-4A467AAF6D93}
 		{C518AB49-502E-4054-92AB-7C84270CCD2B} = {E20E1770-E641-497C-AF3E-B49919566C8C}
+		{04E6B890-5490-427D-8AA1-0E2FDD6BCAD3} = {FD5EEDDB-D72B-4F00-8861-4A467AAF6D93}
+		{327F12D7-D218-4647-B56F-53BC2CD3839F} = {04E6B890-5490-427D-8AA1-0E2FDD6BCAD3}
+		{D84EE8C6-A256-4024-9A74-60FA9B6EBB77} = {04E6B890-5490-427D-8AA1-0E2FDD6BCAD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA913FE5-7712-4872-B047-4201AC13945F}
